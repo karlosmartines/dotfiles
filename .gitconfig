@@ -1,0 +1,7 @@
+[user]
+	name = karlosmartines
+	email = lund.karlmartin@gmail.com
+[color]
+	ui = true
+[core]
+	editor = nvim
