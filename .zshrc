@@ -132,19 +132,7 @@ mkcd ()
 # My custom aliases
 alias kalund='cd /mnt/c/Users/kalund/'
 alias u='sudo apt-get update && sudo apt-get upgrade'
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-
-##  aliain id_rsa --agents ssh  # moved before instant prompt
-
-# OK to perform console I/O before this point.
-# if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-#   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-#   fi
-#   # From this point on, until zsh is fully initialized, console input won't work and
-#   # console output may appear uncolored.
-#
-#   chatty-script >/dev/null      # spam output suppressed
-#   # ...s kalund='cd /mnt/c/Users/kalund'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
