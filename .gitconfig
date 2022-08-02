@@ -5,3 +5,4 @@
 	ui = true
 [core]
 	editor = nvim
+	excludesfile = /home/km/.gitignore
