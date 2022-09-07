@@ -43,7 +43,11 @@ keymap("v", "p", '"_dP', opts)
 
 -- Insert --
 -- Press jk fast to enter
-keymap("i", "jk", "<ESC>", opts)
+if vim.g.vscode then
+    keymap("i", "jk", "<C-c>", opts)
+else
+    keymap("i", "jk", "<C-c>", opts)
+end
 
 -- Visual --
 -- Stay in indent mode
