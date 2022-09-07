@@ -83,7 +83,7 @@ plugins=(
 	zsh-syntax-highlighting
 )
 
-source $ZSH/oh-my-zsh.sh
+# source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -123,7 +123,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # My custom functions
-mkcd ()
+mkd ()
 {
     mkdir -p -- "$1" &&
        cd -P -- "$1"
@@ -133,7 +133,3 @@ mkcd ()
 alias kalund='cd /mnt/c/Users/kalund/'
 alias u='sudo apt-get update && sudo apt-get upgrade'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-
-# Generated for envman. Do not edit.
-[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
-
