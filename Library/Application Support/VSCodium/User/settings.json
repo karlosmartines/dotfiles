@@ -1,6 +1,6 @@
 {
   "workbench.colorTheme": "Nord Deep",
-  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
+  "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
   "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/vscode/settings.vim",
   "whichkey.sortOrder": "alphabetically",
   "whichkey.bindings": [
