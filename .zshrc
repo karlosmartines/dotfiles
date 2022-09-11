@@ -132,4 +132,4 @@ mkd ()
 # My custom aliases
 alias kalund='cd /mnt/c/Users/kalund/'
 alias u='sudo apt-get update && sudo apt-get upgrade'
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
