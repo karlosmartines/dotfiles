@@ -600,7 +600,6 @@
     "**/.factorypath": true
   },
   "terminal.external.osxExec": "Alacritty.app",
-  "editor.minimap.enabled": false,
   "leetcode.workspaceFolder": "/Users/chris/Repos/leetcode",
   "leetcode.defaultLanguage": "javascript",
   "leetcode.hint.configWebviewMarkdown": false,
@@ -748,4 +747,6 @@
   "editor.lineNumbers": "relative",
   "editor.fontSize": 14,
   "editor.cursorSurroundingLines": 8,
+  "editor.stickyScroll.enabled": true,
+  "editor.smoothScrolling": true,
 }
