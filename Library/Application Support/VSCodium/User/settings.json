@@ -749,4 +749,6 @@
   "editor.cursorSurroundingLines": 8,
   "editor.stickyScroll.enabled": true,
   "editor.smoothScrolling": true,
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": -1,
 }

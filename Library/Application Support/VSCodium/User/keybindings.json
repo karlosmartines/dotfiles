@@ -152,7 +152,7 @@
   {
     "key": "shift+k",
     "command": "editor.action.showHover",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus && neovim.mode != 'insert'"
   },
   {
     "key": "ctrl+k ctrl+i",
