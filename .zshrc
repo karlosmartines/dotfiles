@@ -129,3 +129,7 @@ mkd ()
 alias u='sudo apt-get update && sudo apt-get upgrade'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias vi='nvim'
+export GOPATH=$HOME/Code/go
+export GOROOT="$(brew --prefix golang)/libexec"
+export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
+

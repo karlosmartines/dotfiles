@@ -750,5 +750,7 @@
   "editor.stickyScroll.enabled": true,
   "editor.smoothScrolling": true,
   "editor.minimap.enabled": false,
+  "liveServer.settings.CustomBrowser": "chrome",
   "window.zoomLevel": -1,
+  "redhat.telemetry.enabled": false,
 }
