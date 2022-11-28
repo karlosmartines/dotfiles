@@ -753,4 +753,34 @@
   "liveServer.settings.CustomBrowser": "chrome",
   "window.zoomLevel": -1,
   "redhat.telemetry.enabled": false,
+<<<<<<< HEAD
+=======
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "now.syncOnSave": true,
+  "now.theme.enableTheme": false,
+  "now.projectSettings.plugins": true,
+  "now.instance.authentication.type": "OAuth + MFA",
+  "now.projectSettings.packages": true,
+  "prettier.useTabs": true,
+  "editor.insertSpaces": false,
+  "prettier.tabWidth": 4,
+  "workbench.activityBar.visible": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.format.enable": true,
+  "eslint.quiet": true,
+  "emmet.includeLanguages": {
+    "\"go\"": "\"go\""
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+>>>>>>> d118db7 (deleted sensitive data)
 }
