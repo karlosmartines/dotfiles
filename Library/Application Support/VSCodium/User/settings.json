@@ -751,10 +751,7 @@
   "editor.smoothScrolling": true,
   "editor.minimap.enabled": false,
   "liveServer.settings.CustomBrowser": "chrome",
-  "window.zoomLevel": -1,
   "redhat.telemetry.enabled": false,
-<<<<<<< HEAD
-=======
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -769,6 +766,9 @@
   "now.projectSettings.packages": true,
   "prettier.useTabs": true,
   "editor.insertSpaces": false,
+  "editor.codeActionsOnSave": [
+    "source.addMissingImports"
+  ],
   "prettier.tabWidth": 4,
   "workbench.activityBar.visible": false,
   "[javascript]": {
@@ -782,5 +782,9 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
->>>>>>> d118db7 (deleted sensitive data)
+  "go.buildOnSave": "workspace",
+  "window.zoomLevel": -1,
+  "go.toolsManagement.autoUpdate": true,
+  "prettier.bracketSameLine": true,
+  "prettier.printWidth": 200,
 }
